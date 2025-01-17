@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { Button } from "../Button/Button";
 import css from "./TaskForm.module.css";
-import { addTask } from "../../redux/action";
+import { addTask } from "../../redux/tasksSlice";
 
 export const TaskForm = () => {
   // 3. Отримуємо посилання на функцію відправки екшенів
